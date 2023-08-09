@@ -1,9 +1,9 @@
-rm -rf /tmp/device-farm
-export APPIUM_HOME=/tmp/device-farm
+rm -rf /tmp/device-farm-udaync
+export APPIUM_HOME=/tmp/device-farm-udaync
 echo 'Building Plugin'
 npm run build
 echo 'Uninstall Plugin'
-./node_modules/.bin/appium plugin uninstall device-farm
+./node_modules/.bin/appium plugin uninstall device-farm-udaync
 echo 'Install Plugin'
 ./node_modules/.bin/appium plugin install --source=local .
 
