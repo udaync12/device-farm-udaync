@@ -34,23 +34,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AppiumTestDistribution/appium-device-farm"
+    "url": "https://github.com/udaync12/device-farm-udaync"
   },
   "contributors": [
     {
-      "name": "Saikrishna",
-      "email": "saikrishna321@yahoo.com"
+      "name": "Uday Choudhary",
+      "email": "uday.nc@gmail.com"
     },
-    {
-      "name": "Srinivasan Sekar",
-      "email": "srinivasan.sekar1990@gmail.com"
-    }
+    
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AppiumTestDistribution/appium-device-farm/issues"
+    "url": "https://github.com/udaync12/device-farm-udaync/issues"
   },
-  "homepage": "https://github.com/AppiumTestDistribution/appium-device-farm#readme",
+  "homepage": "https://github.com/udaync12/device-farm-udaync#readme",
   "dependencies": {
     "@appium/base-plugin": "^2.2.15",
     "@appium/types": "^0.13.2",
