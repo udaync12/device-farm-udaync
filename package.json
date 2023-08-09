@@ -32,6 +32,9 @@
     "reinstall-plugin": "export APPIUM_HOME=/tmp/some-temp-dir && npm run appium-home && (appium plugin uninstall device-farm || exit 0) && npm run install-plugin",
     "run-server": "export APPIUM_HOME=/tmp/some-temp-dir && appium server -ka 800 --use-plugins=device-farm,appium-dashboard -pa /wd/hub --plugin-device-farm-platform=ios --plugin-device-farm-max-sessions=8"
   },
+  "publishConfig": {
+  "registry": "https://registry.npmjs.org"
+},
   "repository": {
     "type": "git",
     "url": "https://github.com/udaync12/device-farm-udaync"
